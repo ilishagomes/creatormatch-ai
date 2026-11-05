@@ -1,6 +1,6 @@
 # CreatorMatch AI
 
-**Explainable creator discovery and AI-assisted outreach for brand partnerships.**
+**Creator discovery and AI-assisted outreach for brand partnerships.**
 
 A brand writes a campaign brief. CreatorMatch AI ranks a curated database of real public creators with a **deterministic, explainable compatibility score**, shows exactly *why* each creator fits (and where they might not), and uses the **Anthropic Claude API** to draft a personalised outreach email that a person must review before it is used.
 
