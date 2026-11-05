@@ -1,0 +1,39 @@
+{
+  "name": "creatormatch-ai",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev -w server",
+    "db:reset": "npm run db:reset -w server",
+    "test": "npm test -w server && npm test -w client",
+    "ai:check": "npm run ai:check -w server",
+    "dev": "concurrently -n api,web -c magenta,cyan \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "typecheck": "npm run typecheck -w server && npm run typecheck -w client",
+    "db:seed": "npm run db:seed -w server",
+    "test:live": "npm run test:live -w server",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "test:e2e": "node e2e/workflow.e2e.cjs"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "description": "Explainable creator discovery and AI-assisted outreach for brand partnerships — a full-stack TypeScript portfolio project.",
+  "keywords": [
+    "creator-marketing",
+    "influencer-discovery",
+    "react",
+    "typescript",
+    "express",
+    "sqlite",
+    "claude",
+    "anthropic"
+  ]
+}

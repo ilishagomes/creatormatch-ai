@@ -1,0 +1,49 @@
+# ── Dependencies ────────────────────────────────────────────
+node_modules/
+
+# ── Secrets: never commit real keys ─────────────────────────
+# .env holds ANTHROPIC_API_KEY. Only the placeholder file is committed.
+.env
+.env.*
+!.env.example
+
+# ── Local SQLite data (campaigns and drafts you create) ──────
+# The creator SEED data lives in server/src/data/creators.json and IS committed;
+# the database file is generated from it with `npm run db:reset`.
+server/data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# ── Build output & caches ───────────────────────────────────
+dist/
+build/
+*.tsbuildinfo
+.vite/
+.cache/
+coverage/
+
+# ── Test artifacts (Playwright) ─────────────────────────────
+playwright-report/
+test-results/
+blob-report/
+
+# ── Logs ────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── OS & editor files ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+*.swo
+.vscode/*
+!.vscode/extensions.json
