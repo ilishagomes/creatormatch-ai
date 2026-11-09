@@ -30,8 +30,6 @@ A brand writes a campaign brief. CreatorMatch AI ranks a curated database of rea
 10. [API reference](#api-reference)
 11. [Security and privacy](#security-and-privacy)
 12. [Known limitations](#known-limitations)
-13. [What I learned](#what-i-learned)
-14. [How AI coding assistance was used](#how-ai-coding-assistance-was-used)
 
 ---
 
