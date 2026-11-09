@@ -47,11 +47,3 @@ Edit the JSON, then run `npm run db:seed`. It updates creators in place, keeping
 | lifestyle | Emma Chamberlain | youtube | [youtube.com/@emmachamberlain](https://www.youtube.com/@emmachamberlain) | Chamberlain Coffee | YouTube subscribers: 12,000,000 (2025-12) |
 | lifestyle | Matt D'Avella | youtube | [youtube.com/channel/UCJ24N4O0bP7LGLBDvye7oCA](https://www.youtube.com/channel/UCJ24N4O0bP7LGLBDvye7oCA) | — | — |
 | lifestyle | Ali Abdaal | youtube | [youtube.com/@aliabdaal](https://www.youtube.com/@aliabdaal) | LifeOS / Superfocus | — |
-
-## Still worth checking by hand
-
-- **Upload activity.** Sources suggest that Hyram, Jackie Aina and Susan Yara (Mixed Makeup) post less often than they used to. Check each channel's recent uploads before outreach.
-- **Susan Yara's current role at Naturium** after the 2023 e.l.f. acquisition was not confirmed.
-- **Owned-brand keywords are deliberately narrow** (taken from the sources). A creator may have other brand deals or exclusivities that aren't recorded here.
-- **Follower and subscriber counts** for creators without a dated figure. Several third-party trackers were found, but they disagreed, so no figure was stored.
-- Each record's `dateVerified` is the research date. Handles and channel names can change after that.
