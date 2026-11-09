@@ -6,7 +6,7 @@ A brand writes a campaign brief. CreatorMatch AI ranks a curated database of rea
 
 > [!IMPORTANT]
 > **This is not an official creator marketplace or a live social-media analytics platform.**
-> Creator information is a small, hand-curated snapshot of publicly available sources (verified 5 November 2026). The app is **not** connected to Instagram, TikTok or YouTube APIs, is **not** affiliated with or endorsed by any creator or platform, and does **not** provide real-time availability, partnership pricing, audience demographics or engagement data. Compatibility scores are algorithmic estimates, not predictions.
+> Creator information is a small snapshot of publicly available sources. The app is **not** connected to Instagram, TikTok or YouTube APIs, is **not** affiliated with or endorsed by any creator or platform, and does **not** provide real-time availability, partnership pricing, audience demographics or engagement data. Compatibility scores are algorithmic estimates, not predictions.
 
 ![Creator discovery](docs/screenshots/discovery.png)
 
