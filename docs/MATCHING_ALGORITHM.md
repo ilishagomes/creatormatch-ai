@@ -118,18 +118,3 @@ If either check fails, the user sees an error instead of the text.
 | Conflicts | Flagged, and the score is identical with or without them |
 | Real dataset scenarios | Skincare, apparel, tech, food and fashion briefs each get the right kind of creator on top |
 
-## Talking points for a demo
-
-- "It's a weighted scoring model with four components, and every point is explained on screen."
-- "I use a topic taxonomy so related words match: *serum* and *acne* both count as skincare, but an exact topic match is worth more than a related one."
-- "Keywords aren't equal. Words in the product name and specific topics count more than broad words like *reviews*."
-- "We don't have verified audience data, so instead of guessing I exclude that component and rescale. The coverage figure is shown with every score."
-- "Brand conflicts are flagged separately rather than hidden inside the number."
-- "Claude only rewrites the calculated result in plain English, and code rejects any sentence that contains a number we didn't calculate."
-
-## Known limitations
-
-- The taxonomy is hand-written. Words it doesn't know (e.g. a new product category) aren't matched; the dashboard shows which topics it found.
-- Platform matching uses the creator's **primary** platform only.
-- Related-category and related-topic credit (0.4 and 0.5) are design choices, not learned values. They're constants at the top of `index.ts`, so they're easy to tune.
-- The score measures **content fit**. It doesn't predict sales, engagement or whether the creator will say yes.
